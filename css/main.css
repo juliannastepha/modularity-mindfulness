@@ -58,39 +58,23 @@ footer {
   border-bottom: 0;
 }
 
-@media only screen and (min-width: 38em) {
-
-  .first-card {
-    padding-right: .25em;
-  }
-
-  .second-card {
-    padding-left: .25em;
-  }
-
-  .image-card {
-    padding-right: .5em;
-  }
-
+.blue {
+  color: #005e76;
 }
 
 @media only screen and (min-width: 60em) {
 
-  .second-card {
-    padding-left: .125em;
-    padding-right: .125em;
-  }
-
-  .image-card {
-    padding-left: .25em;
-    padding-right: 0;
-  }
-
   .nav-2 {
     text-align: right;
-    padding-top: 2em;
-    padding-right: 1em;
     margin-bottom: 0;
+  }
+
+  .picture {
+    text-align: left;
+  }
+
+  .content {
+    text-align: right;
   }
 
 }
